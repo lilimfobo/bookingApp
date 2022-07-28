@@ -119,4 +119,39 @@ h5 {
   font-size: 20px;
 }
 
+/*Media Queries*/
 
+/*Small devices (mobile phones/portrait tablets, less than 700px*/
+@media screen{
+  header {
+    margin: auto;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-menu {
+    background-color: #CAD315;
+  }
+}
+
+/* Medium devices (landscape tablets, 700px and up) */
+@media screen and (min-width: 750px){
+  main {
+    display: flex;
+    flex-direction: column;
+    overflow: unset;
+  }
+}
+
+/* Large devices (laptops/desktops, 1200px and up) */
+@media screen and (min-width:1200px){
+  main {
+    display: flex;
+    flex-direction: row;
+    overflow: unset;
+  }
+  .nav-menu {
+    background-color: #D37815;
+  }
+}
