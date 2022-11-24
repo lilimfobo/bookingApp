@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Booking App</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
 
   
 
-     <form name="hotel" method="post" autocomplete="off" action="./pages/jhbhotels.php">
+     <form name="hotel" method="post" autocomplete="off" action="./pages/hotels.php">
             <label for="inDate" type="date" id="inDate">Check-in</label>
             <input class="form-control" type="date" name="inDate" id="title" id="title" Required placeholder="Check-in date">
             <label for="outDate" type="date" id="outDate">Check-out</label>
