@@ -1,30 +1,30 @@
 body{
-    background-color: gray;
+    background-color: #C36A2D;
 }
 
 
 h1{
-    color: #fff;
+    color: #F4F4F4;
 
 }
 
 h4{
-    color: #fff; 
+    color: #F4F4F4; 
 }
 
 #inDate{
-    color: #fff; 
+    color: #F4F4F4; 
 }
 
 #outDate{
-    color: #fff; 
+    color: #F4F4F4; 
 }
 
 .footer{
     width: 80%;
     height: 40vh;
-    background-color: #212329;
-    color: #fff;
+    /* background-color: #212329; */
+    color: #F4F4F4;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -50,7 +50,7 @@ h4{
 }
 
 .container a{
-    color:#fff;
+    color:#F4F4F4;
     text-decoration: none;
     margin-bottom: 0.5rem;
 }
@@ -75,7 +75,7 @@ h4{
 }
 
 #footer-email::placeholder{
-    color: lightgray;
+    color: light#C36A2D;
 }
 
 #footer-email-btn{
@@ -85,7 +85,7 @@ h4{
     background-color: #f94230;
     outline: none;
     border: none;
-    color:#fff;
+    color:#F4F4F4;
     font-size: 1rem;
 }
 
