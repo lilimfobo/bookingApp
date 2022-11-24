@@ -39,12 +39,11 @@
     </div>
   </div>
   <div class="card">
-    <img src="./img/soweto.jfif" class="card-img-top" alt="...">
+    <img src="/images/addo.webp" class="card-img-top" alt="elephants">
     <div class="card-body">
-      <h5 class="card-title">Soweto</h5>
-      <p class="card-text">5 reasons you should visit Soweto.</p>
-      <p class="card-text"><small class="text-muted">Last updated 1 month ago</small></p>
-      <a href="https://www.thesouthafrican.com/news/five-reasons-visit-soweto/" target="_blank" class="btn btn-primary">More Info</a>
+      <h5 class="card-title">Addo Elephant Park</h5>
+      <p class="card-text">the third largest national park, it has expanded to conserve a range of biodiversity, landscapes, fauna and flora.</p>
+      <a href="https://www.sanparks.org/parks/addo/" target="_blank" class="btn btn-primary">More Info</a>
     </div>
   </div>
   <div class="card">
