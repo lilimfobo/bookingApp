@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Monte Casino",
+        "rate": 400.00,
+        "pool": true,
+        "bar": true,
+        "kid": false
+    },
+    {
+        "name": "Benvenuto",
+        "rate": 355.00,
+        "pool": false,
+        "bar": true,
+        "kid": true
+    },
+    {
+        "name": "Hill",
+        "rate": 390.00,
+        "pool": true,
+        "bar": true,
+        "kid": true
+    },
+    {
+        "name": "Hotel Sky",
+        "rate": 290.00,
+        "pool": false,
+        "bar": false,
+        "kid": true
+    },
+    {
+        "name": "Mint Hotel",
+        "rate": 305.00,
+        "pool": false,
+        "bar": false,
+        "kid": false
+    }
+]
