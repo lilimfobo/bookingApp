@@ -57,7 +57,7 @@
   </head>
   <body>
 
-  <h1 class='mt-5 pt-4 mb-4 text-center fw-bold h-font'>Johannesburg Hotels</h1>
+  <h1 class='mt-5 pt-4 mb-4 text-center fw-bold h-font'>Quick Bookings</h1>
 
   <div class='container'>
   <div class='row'>
@@ -70,7 +70,7 @@
           
             
                 <div class='col-lg-4 md-6 mb-3'>
-                <form action='confirm-booking.php' method='get'>
+                <form action='confirmBooking.php' method='get'>
                 <div class='card border-0 shadow' style='max-width: 350px; margin: auto;''>
                     <". $hotel->getImg()." class='img-responsivecard-img-top' alt='...'>
                     <div class='card-body'>
