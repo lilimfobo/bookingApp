@@ -1,6 +1,6 @@
 <?php
 
-require ".../classes/class.php";
+require "/classes/class.php";
 
 session_start();
 
