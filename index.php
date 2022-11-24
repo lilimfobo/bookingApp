@@ -47,12 +47,11 @@
     </div>
   </div>
   <div class="card">
-    <img src="./img/cradle.jfif" class="card-img-top" alt="...">
+    <img src="/images/wackyWaterpark.jpg" class="card-img-top" alt="water park games">
     <div class="card-body">
-      <h5 class="card-title">Cradle of humankind</h5>
-      <p class="card-text">A whole new world to discover and the origins of mankind.</p>
-      <p class="card-text"><small class="text-muted">Last updated 2 months ago</small></p>
-      <a href="https://www.maropeng.co.za/content/page/introduction-to-your-visit-to-the-cradle-of-humankind-world-heritage-site" target="_blank" class="btn btn-primary">More Info</a>
+      <h5 class="card-title">Wacky Water Park</h5>
+      <p class="card-text">Family destination for fun in the sun. Offers activities for young and old in one location</p>
+      <a href="https://www.wackywaterpark.com/" target="_blank" class="btn btn-primary">More Info</a>
     </div>
   </div>
 </div>
