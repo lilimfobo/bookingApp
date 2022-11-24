@@ -1,6 +1,6 @@
 <?php
 
-    require "../classes/class.php";
+    require "/classes/class.php";
 
     session_start();
 
@@ -70,7 +70,7 @@
           
             
                 <div class='col-lg-4 md-6 mb-3'>
-                <form action='confirmBooking.php' method='get'>
+                <form action='/pages/confirmBooking.php' method='get'>
                 <div class='card border-0 shadow' style='max-width: 350px; margin: auto;''>
                     <". $hotel->getImg()." class='img-responsivecard-img-top' alt='...'>
                     <div class='card-body'>
