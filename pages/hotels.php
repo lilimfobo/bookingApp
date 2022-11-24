@@ -70,7 +70,7 @@
           
             
                 <div class='col-lg-4 md-6 mb-3'>
-                <form action='confirmBooking.php' method='get'>
+                <form action='../pages/confirmBooking.php' method='get'>
                 <div class='card border-0 shadow' style='max-width: 350px; margin: auto;''>
                     <". $hotel->getImg()." class='img-responsivecard-img-top' alt='...'>
                     <div class='card-body'>
@@ -120,7 +120,7 @@
 
   
             <div class="col-lg-12 text-center mt-5">
-                <a href="/index.php" class="btn btn-primary">Back</a>    
+                <a href="../index.php" class="btn btn-primary">Back</a>    
             </div>    
         </div>    
     </div>    
