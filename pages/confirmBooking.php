@@ -42,7 +42,7 @@ color: #F4F4F4;
 </style>
   </head>
   <body>
-    <form class="ml-3" action="/pages/booking.php" method="post">
+    <form class="ml-3" action="booking.php" method="post">
     <h2 class="text-center">Confirm Booking</h2>
 
     <?php
