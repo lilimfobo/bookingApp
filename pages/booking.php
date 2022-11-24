@@ -4,7 +4,7 @@ require ".../classes/class.php";
 
 session_start();
 
-if (isset($_POST['confirm-booking'])) {
+if (isset($_POST['confirmBooking'])) {
 
     $name = $_POST['name'];
     $surname = $_POST['lastName'];
