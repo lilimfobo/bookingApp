@@ -37,7 +37,7 @@ color: #F4F4F4;
 }
 
 .form-label{
-  color: #fff;
+  color: #F4F4F4;
 }
 </style>
   </head>
