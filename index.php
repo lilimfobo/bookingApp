@@ -10,9 +10,9 @@
 </head>
 
 <body>
-    <h1 class="text-center my-4 py-4">Joburg Hotel Bookings</h1>
+    <h1 class="text-center my-4 py-4">Book It!</h1>
 
-    <h4 class="text-center">Find your next stay at an affordable rate.</h4>
+    <h4 class="text-center">Compare trip prices fast.</h4>
     <div class="w-50 m-auto">
 
 
@@ -20,9 +20,9 @@
 
      <form name="hotel" method="post" autocomplete="off" action="./pages/jhbhotels.php">
             <label for="inDate" type="date" id="inDate">Check-in</label>
-            <input class="form-control" type="date" name="inDate" id="title" id="title" Required placeholder="Add check-in date">
+            <input class="form-control" type="date" name="inDate" id="title" id="title" Required placeholder="Check-in date">
             <label for="outDate" type="date" id="outDate">Check-out</label>
-            <input class="form-control" type="date" name="outDate" id="title" id="title" Required placeholder="Add check-out date">
+            <input class="form-control" type="date" name="outDate" id="title" id="title" Required placeholder="Check-out date">
             <br>
             <button class="btn btn-success" type="submit" name="CompareRates">Compare rates</button>
       </form>
