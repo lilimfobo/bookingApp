@@ -100,7 +100,7 @@ color: #F4F4F4;
             <label class="form-label">Email</label>
             <input name="email" type="email" class="form-control shadow-none" required>
         </div>
-        <button name="confirm-booking" class="btn btn-primary col-md-2 mb-1">Confirm</button>
+        <button name="confirmBooking" class="btn btn-primary col-md-2 mb-1">Confirm</button>
     </div>    
     </div>
 </form>    
