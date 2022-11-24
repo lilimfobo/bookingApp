@@ -28,11 +28,11 @@
     <style>
 
 body{
-    background-color: gray;
+    background-color: #C36A2D;
 }
 
 h2{
-color: #fff;
+color: #F4F4F4;
 
 }
 
