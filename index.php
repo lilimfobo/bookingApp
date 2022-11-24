@@ -10,9 +10,9 @@
 </head>
 
 <body>
-    <h1 class="text-center my-4 py-4">Joburg Hotel Bookings</h1>
+    <h1 class="text-center my-4 py-4">Quick Bookings</h1>
 
-    <h4 class="text-center">Find your next stay at an affordable rate.</h4>
+    <h4 class="text-center">Compare trip prices easier!</h4>
     <div class="w-50 m-auto">
 
 
