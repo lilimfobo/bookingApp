@@ -18,7 +18,7 @@
 
   
 
-     <form name="hotel" method="post" autocomplete="off" action="./pages/hotels.php">
+     <form name="hotel" method="post" autocomplete="off" action="/pages/hotels.php">
             <label for="inDate" type="date" id="inDate">Check-in</label>
             <input class="form-control" type="date" name="inDate" id="title" id="title" Required placeholder="Check-in date">
             <label for="outDate" type="date" id="outDate">Check-out</label>
