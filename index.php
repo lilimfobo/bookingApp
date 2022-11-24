@@ -31,7 +31,7 @@
     <div class="container-fluid">
     <div class="card-group w-50 m-auto">
   <div class="card">  
-    <img src="/images/bayworld.jpg" class="card-img-top" alt="...">
+    <img src="/images/bayworld.jpg" class="card-img-top" alt="bayworld">
     <div class="card-body">
       <h5 class="card-title">Bayworld Oceanarium</h5>
       <p class="card-text">Compromised of the Main Museum, Oceanarium, Snakepark - marvel at the diversity of displays & shows</p>
