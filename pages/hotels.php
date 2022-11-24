@@ -46,7 +46,7 @@
     <style>
 
       body{
-          background-color: gray;
+          background-color: #C36A2D;
       }
 
       h1{
