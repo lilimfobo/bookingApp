@@ -31,12 +31,11 @@
     <div class="container-fluid">
     <div class="card-group w-50 m-auto">
   <div class="card">  
-    <img src="./img/goldreef.jfif" class="card-img-top" alt="...">
+    <img src="/images/bayworld.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Goldreef City</h5>
-      <p class="card-text">Old gold mine turned into South Africa's best theme park.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 days ago</small></p>
-      <a href="https://www.goldreefcity.co.za/theme-park/" target="_blank" class="btn btn-primary">More Info</a>
+      <h5 class="card-title">Bayworld Oceanarium</h5>
+      <p class="card-text">Compromised of the Main Museum, Oceanarium, Snakepark - marvel at the diversity of displays & shows</p>
+      <a href="https://www.bayworld.co.za/" target="_blank" class="btn btn-primary">More Info</a>
     </div>
   </div>
   <div class="card">
