@@ -59,9 +59,12 @@
 <div class="footer text-center">
 <div class="container">
   <h5>Social Media</h5>
-  <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-  <a href="https://www.twitter.com/" target="_blank">Twitter</a>
-  <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+  <a href="https://www.twitter.com/" target="_blank">
+  <img src="/images/twitter.png" id="logo">
+  </a>
+  <a href="https://www.facebook.com/" target="_blank">
+    <img src="/images/facebook.png" id="logo">
+  </a>
 </div>
 <div class="container footer-email-form">
   <h5>Join our newsletter</h5>
