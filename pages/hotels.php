@@ -21,15 +21,15 @@
 
   $_SESSION['hotelList'] = [
         
-    new Hotel(1 ,"The Houghton Hotel",  1860, 3, false,"img src='../img/jhb/houghtonhotel.jpg'"),
-    new Hotel(2, "Bannister Hotel",  650, 8, false, "img src='../img/jhb/bannister.jpg'"),
-    new Hotel(3, "Citylodge Hotel Newtown",  820, 11, false,"img src='../img/jhb/citylodgehotel.jpg'"),
-    new Hotel(4, "The Mercure Hotel",  1260, 0, true,"img src='../img/bedford/Mercure-hotel.jpg'"),
-    new Hotel(5, "The Nicol Hotel",  950, 8, false,"img src='../img/bedford/nicol-hotel.jpg'"),
-    new Hotel(6, "St Andrews Hotel",  820, 11, false, "img src='../img/bedford/St-Andrews-hotel.jpg'"),
-    new Hotel(7, "The Palazzo Monte",  2635, 18, false, "img src='../img/sandton/palazzo-exterior.jpg'"),
-    new Hotel(8, "Sandton Towers",  2245, 7, false, "img src='../img/sandton/sandton-towers-exterior.jpg'"),
-    new Hotel(9, "Da Vinci",  2517, 20, false, "img src='../img/sandton/davinci-hotel-and-suites.jpg'"),
+    new Hotel(1 ,"Addo Park Vista",  1860, 3, false,"img src='/images/addoParkVista.jpg'"),
+    new Hotel(2, "Africanos Country Estate",  650, 8, false, "img src='/images/africanosCountryEstate.jpg'"),
+    new Hotel(3, "Boardwalk Hotel",  820, 11, false,"img src='/images/boardwalkHotel.jpg'"),
+    new Hotel(4, "Elephant House",  1260, 0, true,"img src='/images/elephantHouse.jpg'"),
+    new Hotel(5, "Intle Boutique Hotel",  950, 8, false,"img src='/images/intleBoutiqueHotel.jpg'"),
+    new Hotel(6, "Kelway Hotel",  820, 11, false, "img src='/images/kelwayHotel.jpg'"),
+    new Hotel(7, "Paxton Hotel",  2635, 18, false, "img src='/images/paxtonHotel.jpg'"),
+    new Hotel(8, "Surf Lodge",  2245, 7, false, "img src='/images/surfLodge.jpg'"),
+    new Hotel(9, "The Beach Hotel",  2517, 20, false, "img src='/images/theBeachHotel.jpg'"),
 ];
 
 
