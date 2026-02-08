@@ -1,157 +1,96 @@
 <?php
 
 class Hotel {
+    public function __construct(
+        private int $id,
+        private string $name,
+        private float $costPerNight,
+        private int $availRooms,
+        private bool $fullyBooked,
+        private string $hotelImg,
+        private array $hotelFacilities = []
+    ) {}
 
-    // ----- Fields -----
-    private $id;
-    private $name;
-    private $costPerNight;
-    private $availRooms;
-    private $fullyBooked;
-    private $hotelImg;
-
-    // ------- Constructor ---------
-
-    public function __construct($idInput, $nameInput, $cpnInput, $roomsInput, $fullyBookedInput, $imgInput) {
-
-        $this->id = $idInput;
-        $this->name = $nameInput;
-        $this->costPerNight = $cpnInput;
-        $this->availRooms = $roomsInput;
-        $this->fullyBooked = $fullyBookedInput;
-        $this->hotelImg = $imgInput;
-    
-    }
-    //------- custom methods ---------
-
-    // method that calculates duration of trip
-    public static function calculateNumDays($startDate, $endDate) {
-
-        // Calculating the difference in timestamps
-        $diff = strtotime($endDate) - strtotime($startDate);
-            
-        // 1 day = 24 hours  ->  24 * 60 * 60 = 86400 seconds
-        $numDays = abs(round($diff / 86400));
-
-        return $numDays;
-}
-
- // takes in duration and calculate whole cost of trip
- public function calculateCostOfStay($numDays){
-
-    $amount =  $numDays * $this->costPerNight;
-
-    return $amount;
-}
-
-    //------- getters and setters ---------
-
-    public function getImg() {
-        return $this->hotelImg;
+    /**
+     * Calculates the duration of stay using the modern DateTime object.
+     */
+    public static function calculateNumDays(string $startDate, string $endDate): int 
+    {
+        $start = new DateTime($startDate);
+        $end = new DateTime($endDate);
+        
+        return (int) $start->diff($end)->format("%a");
     }
 
-    public function setImg($imgInput) {
-       $this->hotelImg = $imgInput;
-       
-       return $this;
+    /**
+     * Calculates the total cost based on the number of days.
+     */
+    public function calculateCostOfStay(int $numDays): float 
+    {
+        return $numDays * $this->costPerNight;
     }
 
 
-    public function getId() {
+    public function getId(): int {
         return $this->id;
     }
 
-    public function setId($newId) {
-       $this->id = $newId;
-       
-       return $this;
-    }
-    public function getFacilities() {
-        return $this->hotelFacilities;
-    }
-
-
-    public function setFacilities($hotelFac){
-        $this->hotelFacilities = $hotelFac;
-
+    public function setId(int $id): self {
+        $this->id = $id;
         return $this;
     }
 
-    public function getName()
-    {
+    public function getName(): string {
         return $this->name;
     }
 
-    /**
-     * Set the value of name
-     *
-     * @return  self
-     */ 
-    public function setName($name)
-    {
+    public function setName(string $name): self {
         $this->name = $name;
-
         return $this;
     }
 
-    /**
-     * Get the value of costPerNight
-     */ 
-    public function getCostPerNight()
-    {
+    public function getCostPerNight(): float {
         return $this->costPerNight;
     }
 
-    /**
-     * Set the value of costPerNight
-     *
-     * @return  self
-     */ 
-    public function setCostPerNight($costPerNight)
-    {
+    public function setCostPerNight(float $costPerNight): self {
         $this->costPerNight = $costPerNight;
-
         return $this;
     }
 
-    /**
-     * Get the value of fullyBooked
-     */ 
-    public function getFullyBooked()
-    {
-        return $this->fullyBooked;
-    }
-
-    /**
-     * Set the value of fullyBooked
-     *
-     * @return  self
-     */ 
-    public function setFullyBooked($fullyBooked)
-    {
-        $this->fullyBooked = $fullyBooked;
-
-        return $this;
-    }
-
-    /**
-     * Get the value of availRooms
-     */ 
-    public function getAvailRooms()
-    {
+    public function getAvailRooms(): int {
         return $this->availRooms;
     }
 
-    /**
-     * Set the value of availRooms
-     *
-     * @return  self
-     */ 
-    public function setAvailRooms($availRooms)
-    {
+    public function setAvailRooms(int $availRooms): self {
         $this->availRooms = $availRooms;
+        return $this;
+    }
 
+    public function getFullyBooked(): bool {
+        return $this->fullyBooked;
+    }
+
+    public function setFullyBooked(bool $fullyBooked): self {
+        $this->fullyBooked = $fullyBooked;
+        return $this;
+    }
+
+    public function getImg(): string {
+        return $this->hotelImg;
+    }
+
+    public function setImg(string $img): self {
+        $this->hotelImg = $img;
+        return $this;
+    }
+
+    public function getFacilities(): array {
+        return $this->hotelFacilities;
+    }
+
+    public function setFacilities(array $facilities): self {
+        $this->hotelFacilities = $facilities;
         return $this;
     }
 }
-?>
