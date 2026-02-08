@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['confirmBooking'])) {
     if ($selectedHotel instanceof Hotel) {
         
         $filename = "bookings.csv";
-        $dirPath  = __DIR__ . "/../data";
+        $dirPath  = __DIR__ . "/../data"; 
         $filePath = $dirPath . "/" . $filename;
 
         if (!is_dir($dirPath)) {
@@ -34,37 +34,26 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['confirmBooking'])) {
         ];
 
         $fileExist = file_exists($filePath);
-        
         $fh = fopen($filePath, "a");
 
         if ($fh !== false) {
             if (!$fileExist) {
-                fputcsv($fh, [
-                    "First Name", 
-                    "Last Name", 
-                    "Email", 
-                    "Hotel ID", 
-                    "Hotel Name", 
-                    "Check-in", 
-                    "Check-out", 
-                    "Rate per Night"
-                ]);
+                fputcsv($fh, ["First Name", "Last Name", "Email", "Hotel ID", "Hotel Name", "Check-in", "Check-out", "Rate"]);
             }
 
             fputcsv($fh, $row);
-            
             fclose($fh);
 
             header("Location: success.php");
             exit;
         } else {
-            die("Error: System could not write to the data folder. Check your folder permissions.");
+            die("Error: System could not write to the data folder.");
         }
         
     } else {
-        die("Error: No hotel selection found in your session. Please go back and restart your booking.");
+        die("Error: No hotel selection found. Please restart your booking.");
     }
-} else {\
+} else {
     header("Location: ../index.php");
     exit;
 }
